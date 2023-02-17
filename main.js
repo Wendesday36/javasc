@@ -3,6 +3,7 @@ function init(){
     console.log("haii")
    // const VALAMI = "halii"
     elagazas()
+    ciklusok()
 }
 function elagazas(){
     var cucc = 8
@@ -42,4 +43,10 @@ function elagazas(){
             console.log("nincs ilyen nap")
     }
 
+}
+function ciklusok(){
+    for (let index = 0; index < 10; index++) {
+        var random_szam = Math.floor(Math.random()*101)+100
+        console.log(random_szam)
+    }
 }
