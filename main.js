@@ -47,6 +47,6 @@ function elagazas(){
 function ciklusok(){
     for (let index = 0; index < 10; index++) {
         var random_szam = Math.floor(Math.random()*101)+100
-        console.log(random_szam)
+        console.log(random_szam + ",")
     }
 }
