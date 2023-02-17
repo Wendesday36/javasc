@@ -49,4 +49,14 @@ function ciklusok(){
         var random_szam = Math.floor(Math.random()*101)+100
         console.log(random_szam + ",")
     }
+    do{
+        var szam = (-20, 10);
+        console.log(random_szam)
+    }
+    while(random_szam < 0){
+        console.log(szam)
+    }
+    while(){
+
+    }
 }
